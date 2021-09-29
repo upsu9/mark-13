@@ -1,0 +1,313 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    /*  box-sizing: border-box;  */
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0px
+}
+
+:root {
+    --primary-color:
+        #5383ca;
+}
+
+.pagewrap {
+    display: flex;
+
+    /*vertically stack children*/
+    flex-direction: column;
+
+    /* expand to take full height of page */
+    /* min-height overrides both height & max-height */
+    min-height: 100vh;
+}
+
+.container {
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+.container-center {
+    max-width: 500px;
+    margin: auto;
+}
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1.5rem;
+    font-weight: bolder;
+
+
+}
+
+.primary-link {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    background-color:
+        white;
+    margin: 2rem;
+    border: 1px solid var(--primary-color);
+
+
+
+}
+
+.secondary-link {
+
+    border-radius: 0.5rem;
+    background-color: var(--primary-color);
+    color: white;
+    border: 1px solid white;
+    margin: 2rem
+}
+
+.blogBtn {
+    border-radius: 0.5rem;
+    background-color: white;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    margin: 1rem;
+    text-decoration: none;
+    padding: 0.5rem 1.5rem;
+    font-weight: bolder;
+
+}
+
+.blogBtnA {
+    border-radius: 0.5rem;
+    background-color: var(--primary-color);
+    color: white;
+    border: 1px solid white;
+    margin: 1rem;
+    text-decoration: none;
+    padding: 0.5rem 1.5rem;
+    font-weight: bolder;
+}
+
+hr {
+    /*   padding: 1rem 2rem; */
+    margin: 2rem 0rem;
+}
+
+.linka {
+    display: inline;
+    margin: 0.5rem
+}
+
+.list-a {
+    list-style: none;
+    padding: 0rem 1rem;
+    margin: 0.5rem
+}
+
+.list-b {
+    list-style: none;
+}
+
+
+
+.nav1 {
+    background-color: var(--primary-color);
+    padding: 1rem 2rem;
+    /* border-radius: 00.5rem; */
+    border-bottom-left-radius: 00.5rem;
+    border-bottom-right-radius: 0.5rem;
+    font-size: 20px;
+
+
+}
+
+.navbrand {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    display: inline;
+
+}
+
+.head {
+    color: grey;
+    font-size: 50px;
+    font-weight: bolder;
+    text-shadow: var(--primary-color);
+    text-align: center;
+    margin-top: 2vmax;
+}
+
+.link3 {
+
+    list-style: none;
+    display: inline;
+    padding: 0rem 1rem;
+
+
+}
+
+.link4 {
+    text-decoration: none;
+    color: white;
+    text-align: right;
+    text-shadow: var(--primary-color);
+
+
+}
+
+.nav1 .link5 {
+    font-weight: bold;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.nav3 {
+
+    text-align: right;
+
+}
+
+.hero {
+
+    padding: 1rem;
+}
+
+.hero-img {
+    margin: auto;
+    max-width: 200px;
+    display: block;
+
+}
+
+.hero-header {
+    text-align: center;
+    color: grey;
+    font-weight: bolder;
+
+}
+
+.header-color {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+/* section */
+
+.section {
+    background-color: var(--primary-color);
+    text-align: center;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 00.5rem;
+    margin-bottom: 5 rem;
+    padding-bottom: 2rem;
+
+}
+
+.section1 {
+    background-color: whitesmoke;
+    text-align: center;
+    color: var(--primary-color);
+    padding: 0.5rem;
+    border-radius: 00.5rem;
+    margin-bottom: 5 rem;
+    padding-bottom: 2rem;
+
+}
+
+.sec1 {
+    font-style: italic;
+
+}
+
+.sec2 {
+
+    font-weight: bold;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    font-size: 20px;
+
+}
+
+/* footer */
+
+.footers {
+    background-color: white;
+    border-radius: 0.5rem;
+    text-align: center;
+    /* color:var(--primary-color); */
+    padding: 1rem;
+
+
+}
+
+.make-center {
+    margin: 0px;
+    display: inline-flex;
+    font-size: 30px;
+    font-weight: bolder;
+    color: var(--primary-color);
+}
+
+.non-bullets {
+    list-style: none;
+    display: inline;
+    padding: 2rem 1rem;
+}
+
+.text-color {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.center
+
+{
+    background-color: whitesmoke;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: black;
+    font-weight: bolder;
+    font-size: larger;
+   
+}
+
+
+#palDate{
+    max-width: 20rem;
+}
+
+main {
+    flex-grow: 1;
+}
+
+
+.outputDialog{
+margin: 1rem;
+font-size: xx-large;
+font-weight: bolder;
+}
+
+.btn-click{
+    margin: 2rem;
+}
+
+#btn{
+    padding: 10px;
+    font-size: large;
+}
